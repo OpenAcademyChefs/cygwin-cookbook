@@ -9,3 +9,5 @@ default['cygwin']['mirror'] = 'http://mirrors.kernel.org/sourceware/cygwin/'
 default['cygwin']['setup']['url'] = 'https://cygwin.com/'
 default['cygwin']['setup']['x86'] = 'setup-x86.exe'
 default['cygwin']['setup']['x86_64'] = 'setup-x86_64.exe'
+
+default['cygwin']['pkgs'] = []
