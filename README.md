@@ -7,16 +7,11 @@ Requirements
 ------------
 
 #### packages
-- `windows` (https://github.com/opscode-cookbooks/windows) - Needed to modify windows PATH variable.
+- `windows` - Needed to modify windows PATH variable. (https://github.com/opscode-cookbooks/windows) 
 
 Attributes
 ----------
-- `arch` - Determined automatically upon execution (either 32-bit or 64-bit)
-- `root` - Defaults to normal Cygwin directory (as specified by `arch`)
-- `mirror` - Default mirror used to download the current Cygwin
-- `setup` - Sets url to centrally hosted Cygwin installer (can specify other location if desired)
 
-e.g.
 #### cygwin::default
 <table>
   <tr>
