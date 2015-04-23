@@ -1,13 +1,15 @@
 Cygwin Cookbook for Chef
 ========================
 
-This cookbook installs Cygwin on a windows installation. For compatibility and ease of use, the cookbook has been tested with images pre-loaded with ssh, but should theoretically work with WinRM.
+This cookbook installs Cygwin on a Windows installation. As well, it installs additional Cygwin packages as requested by the user (see attributes).
+
+For compatibility and ease of use, the cookbook has been tested with images pre-loaded with ssh, but should theoretically work with WinRM.
 
 Requirements
 ------------
 
 #### packages
-- `windows` - Needed to modify windows PATH variable. (https://github.com/opscode-cookbooks/windows) 
+- `windows` - Needed to modify Windows PATH variable. (https://github.com/opscode-cookbooks/windows) 
 
 Attributes
 ----------
